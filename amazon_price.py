@@ -8,7 +8,7 @@ def send_email(a):
 
     s.starttls()
 
-    s.login("lolturcia@gmail.com","mandarinele1234")
+    s.login("lolturcia@gmail.com","password")
 
     message = 'Subject: {}\n\n{}'.format('Alert for reduced in price', "The price is: {}.{}$".format(str(a)[0:2],str(a)[2:4]))
 
