@@ -1,7 +1,7 @@
 import smtplib
 
 gmail_user = 'lolturcia'
-gmail_passwrod = 'mandarinele1234'
+gmail_passwrod = 'password'
 
 #email properties
 sent_from = gmail_user
